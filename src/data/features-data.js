@@ -26,6 +26,13 @@ export const featuresData = [
     description:
       "SPort!",
   },
+  {
+    color: "teal",
+    title: "Vesmpany",
+    icon: FingerPrintIcon,
+    description:
+      "SPa!",
+  },
 ];
 
 export default featuresData;
