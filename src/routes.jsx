@@ -2,9 +2,9 @@ import { Home, Profile, Mess, SignIn, Events, SignUp } from "@/pages";
 import {
   HomeIcon,
   UserCircleIcon,
-  ArrowRightOnRectangleIcon,
   QrCodeIcon,
-  CalendarIcon
+  CalendarIcon,
+  TrophyIcon
 } from "@heroicons/react/24/solid";
 import { IconButton } from "@material-tailwind/react";
 
@@ -34,17 +34,17 @@ export const routes = [
   //   element: <SignIn />,
   // },
   {
-    icon: CalendarIcon,
-    name: "Events",
-    path: "/events",
-    element: <Events />,
+    icon: TrophyIcon,
+    name: "Internship Guide",
+    path: "https://drive.google.com/file/d/11XgOrQgHoxWQoJyDO_0ge3nXB19bIb92/view?usp=sharing",
+    element: <Home />,
   },
-  // {
-  //   icon: IconButton,
-  //   name: "Jeep",
-  //   path: "/sign-up",
-  //   element: <SignUp />,
-  // },
+  {
+    icon: UserCircleIcon,
+    name: "Whatsapp groups",
+    path: "/home",
+    element: <Home />,
+  },
 ];
 
 export default routes;

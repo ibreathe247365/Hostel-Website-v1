@@ -79,15 +79,13 @@ export function Home() {
                 className="mb-3 font-bold"
                 color="blue-gray"
               >
-                Maintenance? What's that lol.
+                Welcome to Udaigiri House!
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                Charan Kanwal Singh Dhindsa
+                Udaigiri maintenance committee
                 <br />
                 <br />
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. Just make sure you enable them first via JavaScript.
+                As one of our newest hostel residents, you'll find a welcoming and vibrant community here. With modern facilities and a friendly atmosphere, Udaigiri House is your home away from home. Whether you're studying in our quiet spaces, enjoying a game on our sports courts, or simply relaxing with friends, you're sure to make unforgettable memories.
               </Typography>
               {/* <Button
                 variant="outlined"
@@ -131,8 +129,7 @@ export function Home() {
       </section>
       <section className="relative bg-blue-gray-50/50 px-4 py-24">
         <div className="container mx-auto">
-          <PageTitle heading="B">
-            Add updates widget here or in separate page..
+          <PageTitle heading="Hostel Facilities">
           </PageTitle>
           <div className="mx-auto mb-48 mt-20 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             {contactData.map(({ title, icon, description }) => (

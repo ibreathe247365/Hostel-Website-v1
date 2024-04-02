@@ -1,29 +1,37 @@
 import {
-  StarIcon,
-  PresentationChartLineIcon,
-  RocketLaunchIcon,
-  TrophyIcon
+  BookOpenIcon,
+  TrophyIcon,
+  UserGroupIcon,
+  ComputerDesktopIcon,
+  LifebuoyIcon
 } from "@heroicons/react/24/solid";
 
 export const contactData = [
   {
-    title: "Sporting facilities",
+    title: "Reading Room",
+    icon: BookOpenIcon,
+    description: "A quiet space equipped with books and study materials for residents to read and study.",
+  },
+  {
+    title: "Badminton Court",
+    icon: LifebuoyIcon,
+    description: "An outdoor court for playing badminton, providing residents with recreational and exercise opportunities.",
+  },
+  {
+    title: "Gym",
     icon: TrophyIcon,
-    description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    description: "A fitness facility equipped with exercise machines and weights, allowing residents to engage in workouts and stay active.",
   },
   {
-    title: "Not",
-    icon: PresentationChartLineIcon,
-    description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    title: "Visiting Room",
+    icon: UserGroupIcon,
+    description: "A designated area where residents can meet and entertain their visitors comfortably.",
   },
   {
-    title: "CR events schedule",
-    icon: RocketLaunchIcon,
-    description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
-  },
+    title: "TV Room",
+    icon: ComputerDesktopIcon,
+    description: "A communal space equipped with a television where residents can gather to watch movies, sports, or TV shows together.",
+  }
 ];
 
 export default contactData;

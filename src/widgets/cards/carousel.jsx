@@ -30,7 +30,7 @@ export function NewsCarousel({ data }) {
               News
           </Typography>
 
-          <Carousel autoplay={0} className="rounded-lg overflow-x-hidden bg-red-900">
+          <Carousel autoplay={0} className="rounded-lg overflow-x-hidden bg-black">
             {data.map((img,idx) =>
             <div className="top-0 h-full w-full bg-[url('img/udai.jpg')] bg-cover bg-center">
               <img src={img.src} alt={img.alt} key={idx}

@@ -135,7 +135,7 @@ Footer.defaultProps = {
   ],
   copyright: (
     <>
-      Udaigiri © {year}{" "}
+      Udaigiri Technical Team © {year}{" "}
       <a
         href="https://www.creative-tim.com?ref=mtk"
         target="_blank"
