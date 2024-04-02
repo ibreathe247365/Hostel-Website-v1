@@ -1,30 +1,31 @@
 import {
   StarIcon,
   ArrowPathIcon,
-  FingerPrintIcon,
+  UserCircleIcon,
+  TrophyIcon
 } from "@heroicons/react/24/solid";
 
 export const featuresData = [
   {
     color: "blue",
-    title: "Awarded Agency",
+    title: "Mess details",
     icon: StarIcon,
     description:
-      "Divide.",
+      "Information regarding mess services and rebate",
   },
   {
     color: "red",
-    title: "Faccha Corner",
-    icon: ArrowPathIcon,
+    title: "Contact details",
+    icon: UserCircleIcon,
     description:
-      "Chup.",
+      "Important contacts related to hostel services",
   },
   {
     color: "teal",
-    title: "Verified Company",
-    icon: FingerPrintIcon,
+    title: "Internship guide",
+    icon: TrophyIcon,
     description:
-      "SPort!",
+      "Guide prepared by Udaigiri senior year students",
   },
 ];
 

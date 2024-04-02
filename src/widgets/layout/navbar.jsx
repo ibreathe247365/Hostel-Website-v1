@@ -64,12 +64,12 @@ export function Navbar({ brandName, routes, action }) {
     <MTNavbar color="transparent" className="p-3">
       <div className="container mx-auto flex items-center justify-between text-white">
         <Link to="/">
-          {/* <Typography className="font-sans mr-4 ml-2 cursor-pointer py-1.5 font-bold">
-            {brandName}
-          </Typography> */}
           <img src="/img/udaigiri-logo.jpg" alt="Udaigiri" key="udaigiri-stock-image"
             className="rounded-full h-12 w-12"
           />
+          {/* <Typography className="font-sans mr-4 ml-2 cursor-pointer py-1.5 font-bold">
+            {brandName}
+          </Typography> */}
         </Link>
         <div className="hidden lg:block">{navList}</div>
         <div className="hidden gap-2 lg:flex">

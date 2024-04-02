@@ -79,9 +79,9 @@ export function Footer({ title, description, socials, menus, copyright }) {
 }
 
 Footer.defaultProps = {
-  title: "Footer",
+  title: "Udaigiri House",
   description:
-    "ReactApp + Tailwind CSS and Material Design.",
+    "Official website for hostel residents. Find official whatsapp group links for hostel resources in this section.",
   socials: [
     {
       color: "blue",
@@ -103,61 +103,46 @@ Footer.defaultProps = {
       name: "youtube",
       path: "https://home.iitd.ac.in/",
     },
-    {
-      color: "black",
-      name: "github",
-      path: "https://home.iitd.ac.in/",
-    },
+    // {
+    //   color: "black",
+    //   name: "github",
+    //   path: "https://home.iitd.ac.in/",
+    // },
   ],
   menus: [
     {
-      name: "useful links",
+      name: "useful whatsapp links",
       items: [
-        { name: "About", path: "https://home.iitd.ac.in/" },
-        { name: "Blog", path: "https://home.iitd.ac.in/" },
-        {
-          name: "Github",
-          path: "https://home.iitd.ac.in/",
-        },
-        {
-          name: "Hostel Merch",
-          path: "https://home.iitd.ac.in/",
-        },
-      ],
+        { name: "Udai Mess Info", path: "https://chat.whatsapp.com/CIShcULnpvXC5SS6Suq0YO" },
+        { name: "New PG 2022 ( newly joined hostel)", path: "https://chat.whatsapp.com/LqQOfKQZNiaChHuKMDY2uC" },
+        { name: "Dance", path: "https://chat.whatsapp.com/KJNf8MXc9dmCfQAvPyxRf9" },
+        { name: "Debsoc", path: "https://chat.whatsapp.com/FusNZPwqiOYEhXgPYG2nQS" },
+        { name: "Drama", path: "https://chat.whatsapp.com/HMuFp8MxIsv7ugw6Hv27tv" },
+        { name: "Spic Macay", path: "https://chat.whatsapp.com/IXwL98nAQiAD67XdYPLbO7" }
+      ]
     },
     {
-      name: "other resources",
+      name: "other whatsapp links",
       items: [
-        {
-          name: "MIT License",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/LICENSE.md?ref=mtk",
-        },
-        {
-          name: "Contribute",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CONTRIBUTING.md?ref=mtk",
-        },
-        {
-          name: "Change Log",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CHANGELOG.md?ref=mtk",
-        },
-        {
-          name: "Contact Us",
-          path: "https://creative-tim.com/contact-us?ref=mtk",
-        },
+        { name: "PFC", path: "https://chat.whatsapp.com/BAyP8qVep8TDcqMiEAhwyd" },
+        { name: "Facc", path: "https://chat.whatsapp.com/FIVs7Si2X2QIBkHnFhuUtj" },
+        { name: "Design", path: "https://chat.whatsapp.com/CobMTavPwEvB8Y3ipn4NgC" },
+        { name: "QC", path: "https://chat.whatsapp.com/G9Q8x4HXEeGBkyP5LrNIRr" },
+        { name: "HS", path: "https://chat.whatsapp.com/Cbm7POaNF2M5DUuG5MaF5e" },
+        { name: "Lit", path: "https://chat.whatsapp.com/Bk1I9DYZSNtC18UChQ29Zw" }
       ],
     },
   ],
   copyright: (
     <>
-      Subj to © {year}{" "}
+      Udaigiri © {year}{" "}
       <a
         href="https://www.creative-tim.com?ref=mtk"
         target="_blank"
         className="text-blue-gray-500 transition-colors hover:text-blue-500"
       >
-        AC
       </a>
-      .
+
     </>
   ),
 };

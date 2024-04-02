@@ -89,12 +89,12 @@ export function Home() {
                 faster. You can change the text and images and you're good to
                 go. Just make sure you enable them first via JavaScript.
               </Typography>
-              <Button
+              {/* <Button
                 variant="outlined"
                 onClick={() => (window.location.href = "/sign-in")}
               >
                 read more
-              </Button>
+              </Button> */}
             </div>
             <div className="mx-auto mt-12 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
               <MapEmbed width={600} height={300} />
@@ -105,8 +105,8 @@ export function Home() {
 
       <section className="px-4 pb-48 pt-20">
         <div className="container mx-auto">
-          <PageTitle heading="Hostel Secretaries">
-            can also add contact details of caretaker/mess mgr etc
+          <PageTitle heading="Contact">
+            Find contact details of hostel services here
           </PageTitle>
           <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-4">
             {teamData.map(({ img, name, position, socials }) => (
@@ -156,7 +156,7 @@ export function Home() {
               </Card>
             ))}
           </div>
-          <PageTitle heading="Complaints form?">{ }</PageTitle>
+          {/* <PageTitle heading="Complaints form?">{ }</PageTitle>
           <form className="mx-auto mt-12 max-w-3xl text-center">
             <div className="mb-8 flex gap-8">
               <Input variant="standard" size="lg" label="Full Name" />
@@ -166,7 +166,7 @@ export function Home() {
             <Button variant="gradient" size="lg" className="mt-8">
               Send
             </Button>
-          </form>
+          </form> */}
         </div>
       </section>
 
