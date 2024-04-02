@@ -9,7 +9,6 @@ export function NewsCarousel({ data }) {
     //       variant="h3"
     //       color="white"
     //       className="flex justify-center">
-    //         news dekho bekeload
     //     </Typography>
 
     //     <div className="max-w-[50%] mx-auto">
@@ -28,7 +27,7 @@ export function NewsCarousel({ data }) {
       <Card className="p-10 object-fill mx-auto">
           <Typography variant="h3"
             className="font-bold -mt-4 mb-4">
-              News, Bekeload!
+              News
           </Typography>
 
           <Carousel autoplay={0} className="rounded-lg overflow-x-hidden bg-red-900">

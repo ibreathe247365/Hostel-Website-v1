@@ -21,7 +21,7 @@ export function Home() {
 
         <div className="absolute top-0 h-full w-full bg-[url('img/udai.jpg')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center" />  {/* darkener hai yeh */}
-        
+
         <div className="max-w-8xl container relative mx-auto">
           <div className="flex flex-wrap items-center">
             <div className="mt-32 mx-auto w-full px-4 text-center lg:w-8/12">
@@ -35,10 +35,9 @@ export function Home() {
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
                 Official website for hostel residents. Find latest updates in
-                the news tab.
+                the news section below.
                 <br />
-                You can access personal details such as mess QR and menu by
-                logging in to this site.
+                You can submit mess feedback and access contact information from this webpage.
               </Typography>
 
               <div className="mt-16 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -157,7 +156,7 @@ export function Home() {
               </Card>
             ))}
           </div>
-          <PageTitle heading="Complaints form?">{}</PageTitle>
+          <PageTitle heading="Complaints form?">{ }</PageTitle>
           <form className="mx-auto mt-12 max-w-3xl text-center">
             <div className="mb-8 flex gap-8">
               <Input variant="standard" size="lg" label="Full Name" />

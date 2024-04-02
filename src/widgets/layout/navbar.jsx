@@ -64,9 +64,12 @@ export function Navbar({ brandName, routes, action }) {
     <MTNavbar color="transparent" className="p-3">
       <div className="container mx-auto flex items-center justify-between text-white">
         <Link to="/">
-          <Typography className="font-sans mr-4 ml-2 cursor-pointer py-1.5 font-bold">
+          {/* <Typography className="font-sans mr-4 ml-2 cursor-pointer py-1.5 font-bold">
             {brandName}
-          </Typography>
+          </Typography> */}
+          <img src="/img/udaigiri-logo.jpg" alt="Udaigiri" key="udaigiri-stock-image"
+            className="rounded-full h-12 w-12"
+          />
         </Link>
         <div className="hidden lg:block">{navList}</div>
         <div className="hidden gap-2 lg:flex">
@@ -74,7 +77,7 @@ export function Navbar({ brandName, routes, action }) {
             href="https://eacademics.iitd.ac.in/sportal/login"
             target="_blank"
           >
-            <Button variant="text" size="sm" color="white" fullWidth style={{textTransform: 'capitalize'}}>
+            <Button variant="text" size="sm" color="white" fullWidth style={{ textTransform: 'capitalize' }}>
               Go to Student Portal
             </Button>
           </a>
@@ -83,7 +86,7 @@ export function Navbar({ brandName, routes, action }) {
           })}
         </div>
         <IconButton
-          variant="text"  
+          variant="text"
           size="sm"
           color="white"
           className="ml-auto text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
@@ -107,7 +110,7 @@ export function Navbar({ brandName, routes, action }) {
             target="_blank"
             className="mb-2 block"
           >
-            <Button variant="text" size="sm" style={{textTransform: 'none'}} fullWidth>
+            <Button variant="text" size="sm" style={{ textTransform: 'none' }} fullWidth>
               Go to Student Portal
             </Button>
           </a>
@@ -121,15 +124,15 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: "Udaigiri Icon to_be_embed",
+  brandName: "Udaigiri",
   action: (
     <a
-      href="https://oauth.iitd.ac.in/authorize.php?response_type=code&client_id=client_id&state=xyz"
-      // target="_blank"
-      target="_self"
+      href="https://forms.office.com/Pages/ResponsePage.aspx?id=S1xNYsVFIkGM0ETw-E6UXWO5YF2mY4hEuHqiOHML3MxUQlAxNEVaWlFXRkVFMVhYRjNBN1lMWTlUNC4u"
+      target="_blank"
+    // target="_self"
     >
       <Button variant="gradient" size="sm" color="red" fullWidth>
-        Login with Kerberos
+        Complaints Form
       </Button>
     </a>
   ),

@@ -1,4 +1,4 @@
-import { Home, Profile, Mess, SignIn, Events , SignUp} from "@/pages";
+import { Home, Profile, Mess, SignIn, Events, SignUp } from "@/pages";
 import {
   HomeIcon,
   UserCircleIcon,
@@ -15,36 +15,36 @@ export const routes = [
     path: "/home",
     element: <Home />,
   },
-  {
-    icon: UserCircleIcon,
-    name: "profile",
-    path: "/profile",
-    element: <Profile />,
-  },
+  // {
+  //   icon: UserCircleIcon,
+  //   name: "profile",
+  //   path: "/profile",
+  //   element: <Profile />,
+  // },
   {
     icon: QrCodeIcon,
     name: "Mess Info",
     path: "/mess",
     element: <Mess />,
   },
-  {
-    icon: ArrowRightOnRectangleIcon,
-    name: "Sign In",
-    path: "/sign-in",
-    element: <SignIn />,
-  },
+  // {
+  //   icon: ArrowRightOnRectangleIcon,
+  //   name: "Sign In",
+  //   path: "/sign-in",
+  //   element: <SignIn />,
+  // },
   {
     icon: CalendarIcon,
     name: "Events",
     path: "/events",
     element: <Events />,
   },
-  {
-    icon: IconButton,
-    name: "Jeep",
-    path: "/sign-up",
-    element: <SignUp/>,
-  },
+  // {
+  //   icon: IconButton,
+  //   name: "Jeep",
+  //   path: "/sign-up",
+  //   element: <SignUp />,
+  // },
 ];
 
 export default routes;

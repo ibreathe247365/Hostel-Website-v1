@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "@material-tailwind/react";
 import "../public/css/tailwind.css";
 
-ReactDOM.createRoot(document.getElementById("tmkc")).render(
+ReactDOM.createRoot(document.getElementById("react-app")).render(
   <React.StrictMode>
     <BrowserRouter>
       <ThemeProvider>

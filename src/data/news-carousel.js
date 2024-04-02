@@ -2,7 +2,7 @@ export const newsCarousel = [
     {
         src: 'https://picsum.photos/1200/300',
         alt: 'pic 1',
-        caption: "iski mkb"
+        caption: "Demo caption"
     },
     {
         src: 'https://picsum.photos/400/300',
