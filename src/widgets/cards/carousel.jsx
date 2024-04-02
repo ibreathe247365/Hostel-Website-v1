@@ -1,4 +1,4 @@
-import { Carousel, Typography, Button, CardHeader} from "@material-tailwind/react";
+import { Carousel, Typography, Button, CardHeader } from "@material-tailwind/react";
 import { newsCarousel } from "@/data";
 import { Card } from "@material-tailwind/react";
 
@@ -25,13 +25,13 @@ export function NewsCarousel({ data }) {
     //   </div>
     <>
       <Card className="p-10 object-fill mx-auto">
-          <Typography variant="h3"
-            className="font-bold -mt-4 mb-4">
-              News
-          </Typography>
+        <Typography variant="h3"
+          className="font-bold -mt-4 mb-4">
+          Latest
+        </Typography>
 
-          <Carousel autoplay={0} className="rounded-lg overflow-x-hidden bg-black">
-            {data.map((img,idx) =>
+        <Carousel autoplay={0} className="rounded-lg overflow-x-hidden bg-black">
+          {data.map((img, idx) =>
             <div className="top-0 h-full w-full bg-[url('img/udai.jpg')] bg-cover bg-center">
               <img src={img.src} alt={img.alt} key={idx}
                 // width={400} height={300} 
@@ -42,8 +42,8 @@ export function NewsCarousel({ data }) {
               </Typography>
 
             </div>
-            )}
-          </Carousel>
+          )}
+        </Carousel>
       </Card>
     </>
   );
