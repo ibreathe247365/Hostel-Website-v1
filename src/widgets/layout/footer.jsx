@@ -135,14 +135,14 @@ Footer.defaultProps = {
   ],
   copyright: (
     <>
-      Udaigiri Technical Team © {year}{" "}
+      Udaigiri Technical Team © {year}{" "} |
       <a
         href="https://www.creative-tim.com?ref=mtk"
         target="_blank"
         className="text-blue-gray-500 transition-colors hover:text-blue-500"
       >
       </a>
-
+      | Maintained by Samir Sharma, Aniruddha Chatterjee, Mridul Bansal
     </>
   ),
 };
