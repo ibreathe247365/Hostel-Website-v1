@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { Card, Avatar, Typography } from "@material-tailwind/react";
 
-export function TeamCard({ img, name, position, socials }) {
+export function TeamCard({ img, name, position, contact, socials }) {
   return (
     <Card color="transparent" shadow={false} className="text-center">
       {/* <Avatar
@@ -16,6 +16,11 @@ export function TeamCard({ img, name, position, socials }) {
       {position && (
         <Typography className="font-normal text-blue-gray-500">
           {position}
+        </Typography>
+      )}
+      {contact && (
+        <Typography className="font-normal text-blue-gray-600">
+          {contact}
         </Typography>
       )}
       {socials && <div className="mx-auto mt-5">{socials}</div>}
