@@ -168,7 +168,7 @@ export function Home() {
         </div>
       </section>
 
-      <div className="bg-blue-gray-50/50">
+      <div id="footer" className="bg-blue-gray-50/50">
         <Footer />
       </div>
     </>

@@ -24,7 +24,7 @@ export const routes = [
   {
     icon: QrCodeIcon,
     name: "Mess Info",
-    path: "/mess",
+    path: "https://docs.google.com/document/d/1uAtDoEZQYGfHNP7qXHqpgM6wmc8Cf2n-/edit?usp=sharing&ouid=106905100141558189475&rtpof=true&sd=true",
     element: <Mess />,
   },
   // {
@@ -42,7 +42,7 @@ export const routes = [
   {
     icon: UserCircleIcon,
     name: "Whatsapp groups",
-    path: "/home",
+    href: "/home#footer",
     element: <Home />,
   },
 ];
